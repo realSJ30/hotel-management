@@ -1,0 +1,308 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{E0ECF22C-C7BB-4D66-94B3-B17D28FD1D85}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>EDP_Project_Hotel_Management_.My.MyApplication</StartupObject>
+    <RootNamespace>EDP_Project_Hotel_Management_</RootNamespace>
+    <AssemblyName>EDP Project%28Hotel Management%29</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>EDP Project%28Hotel Management%29.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>EDP Project%28Hotel Management%29.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Bunifu_UI_v1.52">
+      <HintPath>..\..\..\..\..\Downloads\Bunifu_UI_v1.52.dll</HintPath>
+    </Reference>
+    <Reference Include="MySql.Data, Version=6.9.9.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Net.Http" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Threading.Tasks" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Booking.Designer.vb">
+      <DependentUpon>Booking.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Booking.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BookRoom.Designer.vb">
+      <DependentUpon>BookRoom.vb</DependentUpon>
+    </Compile>
+    <Compile Include="BookRoom.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Customer.Designer.vb">
+      <DependentUpon>Customer.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Customer.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Design.vb" />
+    <Compile Include="Employee.vb" />
+    <Compile Include="ErrorTrap.vb" />
+    <Compile Include="frmMainMenu.Designer.vb">
+      <DependentUpon>frmMainMenu.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmMainMenu.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmRoomCategory.Designer.vb">
+      <DependentUpon>frmRoomCategory.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmRoomCategory.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmSearchAccount.Designer.vb">
+      <DependentUpon>frmSearchAccount.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmSearchAccount.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmSignIn.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmSignIn.Designer.vb">
+      <DependentUpon>frmSignIn.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Rooms.Designer.vb">
+      <DependentUpon>Rooms.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Rooms.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Transactions.Designer.vb">
+      <DependentUpon>Transactions.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Transactions.vb">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Booking.resx">
+      <DependentUpon>Booking.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BookRoom.resx">
+      <DependentUpon>BookRoom.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Customer.resx">
+      <DependentUpon>Customer.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMainMenu.resx">
+      <DependentUpon>frmMainMenu.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmRoomCategory.resx">
+      <DependentUpon>frmRoomCategory.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmSearchAccount.resx">
+      <DependentUpon>frmSearchAccount.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmSignIn.resx">
+      <DependentUpon>frmSignIn.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Rooms.resx">
+      <DependentUpon>Rooms.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Transactions.resx">
+      <DependentUpon>Transactions.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shutdown_26px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\coworking_96px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\room_96px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\float_128px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ticket_200px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shutdown_128px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\family_96px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\man_window_eye_100px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\add_200px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\enter_key_filled_100px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\collapse_arrow_30px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\arrow2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\update_left_rotation_24px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\update.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hotel_information_16px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hotel30.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hotelier.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\information.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\categorize_52px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sleeping_in_bed_80px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\check_in_desk_80px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\single_bed_80px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\double_bed_80px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kids_bedroom_80px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bedroom_80px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\queen_80px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\king_80px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\5_star_hotel_80px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\door_hanger_80px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\front_desk_40px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\add_ticket_96px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Transaction List_128px.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

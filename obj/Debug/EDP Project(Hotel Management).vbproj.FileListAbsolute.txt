@@ -1,0 +1,35 @@
+C:\Users\SJ\AppData\Local\Temporary Projects\EDP Project(Hotel Management)\bin\Debug\EDP Project(Hotel Management).exe.config
+C:\Users\SJ\AppData\Local\Temporary Projects\EDP Project(Hotel Management)\bin\Debug\EDP Project(Hotel Management).exe
+C:\Users\SJ\AppData\Local\Temporary Projects\EDP Project(Hotel Management)\bin\Debug\EDP Project(Hotel Management).pdb
+C:\Users\SJ\AppData\Local\Temporary Projects\EDP Project(Hotel Management)\bin\Debug\EDP Project(Hotel Management).xml
+C:\Users\SJ\AppData\Local\Temporary Projects\EDP Project(Hotel Management)\obj\Debug\EDP Project(Hotel Management).vbprojResolveAssemblyReference.cache
+C:\Users\SJ\AppData\Local\Temporary Projects\EDP Project(Hotel Management)\obj\Debug\EDP_Project_Hotel_Management_.Resources.resources
+C:\Users\SJ\AppData\Local\Temporary Projects\EDP Project(Hotel Management)\obj\Debug\EDP Project(Hotel Management).vbproj.GenerateResource.Cache
+C:\Users\SJ\AppData\Local\Temporary Projects\EDP Project(Hotel Management)\obj\Debug\EDP Project(Hotel Management).exe
+C:\Users\SJ\AppData\Local\Temporary Projects\EDP Project(Hotel Management)\obj\Debug\EDP Project(Hotel Management).xml
+C:\Users\SJ\AppData\Local\Temporary Projects\EDP Project(Hotel Management)\obj\Debug\EDP Project(Hotel Management).pdb
+C:\Users\SJ\AppData\Local\Temporary Projects\EDP Project(Hotel Management)\bin\Debug\Bunifu_UI_v1.52.dll
+C:\Users\SJ\AppData\Local\Temporary Projects\EDP Project(Hotel Management)\obj\Debug\EDP_Project_Hotel_Management_.frmMainMenu.resources
+C:\Users\SJ\AppData\Local\Temporary Projects\EDP Project(Hotel Management)\obj\Debug\EDP_Project_Hotel_Management_.frmSignIn.resources
+C:\Users\SJ\Documents\Visual Studio 2015\Projects\EDP Project(Hotel Management)\EDP Project(Hotel Management)\bin\Debug\EDP Project(Hotel Management).exe.config
+C:\Users\SJ\Documents\Visual Studio 2015\Projects\EDP Project(Hotel Management)\EDP Project(Hotel Management)\obj\Debug\EDP Project(Hotel Management).exe
+C:\Users\SJ\Documents\Visual Studio 2015\Projects\EDP Project(Hotel Management)\EDP Project(Hotel Management)\obj\Debug\EDP Project(Hotel Management).xml
+C:\Users\SJ\Documents\Visual Studio 2015\Projects\EDP Project(Hotel Management)\EDP Project(Hotel Management)\obj\Debug\EDP Project(Hotel Management).pdb
+C:\Users\SJ\Documents\Visual Studio 2015\Projects\EDP Project(Hotel Management)\EDP Project(Hotel Management)\bin\Debug\EDP Project(Hotel Management).exe
+C:\Users\SJ\Documents\Visual Studio 2015\Projects\EDP Project(Hotel Management)\EDP Project(Hotel Management)\bin\Debug\EDP Project(Hotel Management).pdb
+C:\Users\SJ\Documents\Visual Studio 2015\Projects\EDP Project(Hotel Management)\EDP Project(Hotel Management)\bin\Debug\EDP Project(Hotel Management).xml
+C:\Users\SJ\Documents\Visual Studio 2015\Projects\EDP Project(Hotel Management)\EDP Project(Hotel Management)\bin\Debug\Bunifu_UI_v1.52.dll
+C:\Users\SJ\Documents\Visual Studio 2015\Projects\EDP Project(Hotel Management)\EDP Project(Hotel Management)\obj\Debug\EDP Project(Hotel Management).vbprojResolveAssemblyReference.cache
+C:\Users\SJ\Documents\Visual Studio 2015\Projects\EDP Project(Hotel Management)\EDP Project(Hotel Management)\obj\Debug\EDP_Project_Hotel_Management_.frmMainMenu.resources
+C:\Users\SJ\Documents\Visual Studio 2015\Projects\EDP Project(Hotel Management)\EDP Project(Hotel Management)\obj\Debug\EDP_Project_Hotel_Management_.frmSignIn.resources
+C:\Users\SJ\Documents\Visual Studio 2015\Projects\EDP Project(Hotel Management)\EDP Project(Hotel Management)\obj\Debug\EDP_Project_Hotel_Management_.Resources.resources
+C:\Users\SJ\Documents\Visual Studio 2015\Projects\EDP Project(Hotel Management)\EDP Project(Hotel Management)\obj\Debug\EDP Project(Hotel Management).vbproj.GenerateResource.Cache
+C:\Users\SJ\Documents\Visual Studio 2015\Projects\EDP Project(Hotel Management)\EDP Project(Hotel Management)\bin\Debug\MySql.Data.dll
+C:\Users\SJ\Documents\Visual Studio 2015\Projects\EDP Project(Hotel Management)\EDP Project(Hotel Management)\bin\Debug\MySql.Data.xml
+C:\Users\SJ\Documents\Visual Studio 2015\Projects\EDP Project(Hotel Management)\EDP Project(Hotel Management)\obj\Debug\EDP_Project_Hotel_Management_.frmSearchAccount.resources
+C:\Users\SJ\Documents\Visual Studio 2015\Projects\EDP Project(Hotel Management)\EDP Project(Hotel Management)\obj\Debug\EDP_Project_Hotel_Management_.frmRoomCategory.resources
+C:\Users\SJ\Documents\Visual Studio 2015\Projects\EDP Project(Hotel Management)\EDP Project(Hotel Management)\obj\Debug\EDP_Project_Hotel_Management_.Rooms.resources
+C:\Users\SJ\Documents\Visual Studio 2015\Projects\EDP Project(Hotel Management)\EDP Project(Hotel Management)\obj\Debug\EDP_Project_Hotel_Management_.BookRoom.resources
+C:\Users\SJ\Documents\Visual Studio 2015\Projects\EDP Project(Hotel Management)\EDP Project(Hotel Management)\obj\Debug\EDP_Project_Hotel_Management_.Customer.resources
+C:\Users\SJ\Documents\Visual Studio 2015\Projects\EDP Project(Hotel Management)\EDP Project(Hotel Management)\obj\Debug\EDP_Project_Hotel_Management_.Booking.resources
+C:\Users\SJ\Documents\Visual Studio 2015\Projects\EDP Project(Hotel Management)\EDP Project(Hotel Management)\obj\Debug\EDP_Project_Hotel_Management_.Transactions.resources
